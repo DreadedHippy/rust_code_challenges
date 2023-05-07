@@ -4,12 +4,12 @@
 The solution to each challenge is stored on it's own branch and is named like so:
 - "WEBSITE"-"PROBLEM#"
 For example, the "Age Limit" problem on [CodeChef](https://codechef.com) has the problem code "AGELIMIT", therefore to find the solution you need, do the following:
-1. Click the "branches" dropdown on github
+1. Click the "Go To File" button on github
 2. In the searchbar, type in "codechef-AGELIMIT"
 3. Click on the result that shows.
 Voila!, you're all set.
 
-Use this method to find any solutions you may be looking for and they, if it exists, the corresponding branch will be shown
+Use this method to find any solutions you may be looking for and they, if it exists, the corresponding file will be shown
 
 ### Links
 - [Read more about Rust here](https://www.rust-lang.org/)
