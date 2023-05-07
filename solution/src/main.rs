@@ -30,8 +30,7 @@ fn main() {
 
     let mut iter = problem.trim().split_whitespace();
 
-    let x: i32 = iter.next().unwrap().parse().unwrap();
-    let y: i32 = iter.next().unwrap().parse().unwrap();
+    for _test_case in 1..=number_of_test_cases {
 
     println!("{}", x - y);
 
