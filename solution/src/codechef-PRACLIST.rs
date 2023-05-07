@@ -22,17 +22,17 @@
 
 fn main() {
     
-    let mut problem = String::new();        
-        
-    std::io::stdin()
-    .read_line(&mut problem)
-    .unwrap();
+	let mut problem = String::new();        
+			
+	std::io::stdin()
+	.read_line(&mut problem)
+	.unwrap();
 
-    let mut iter = problem.trim().split_whitespace();
+	let mut iter = problem.trim().split_whitespace();
 
-    let x: i32 = iter.next().unwrap().parse().unwrap();
-    let y: i32 = iter.next().unwrap().parse().unwrap();
+	let x: i32 = iter.next().unwrap().parse().unwrap();
+	let y: i32 = iter.next().unwrap().parse().unwrap();
 
-    println!("{}", x - y);
+	println!("{}", x - y);
 
 }
