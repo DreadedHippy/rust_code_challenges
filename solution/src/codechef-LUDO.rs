@@ -23,6 +23,15 @@ fn main() {
 	let number_of_test_cases: i32 = number_of_test_cases.trim().parse().unwrap();
 
 	for _test_case in 1..=number_of_test_cases {
+			let mut result = String::new();
+			
+			std::io::stdin()
+			.read_line(&mut result)
+			.unwrap();
+			
+			let result: i32 = result.trim().parse().unwrap();
+
+			println!("{}", if result == 6 {"YES"} else {"NO"})
 
 	}
 
