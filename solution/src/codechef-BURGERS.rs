@@ -38,7 +38,7 @@ fn main() {
 			let b: i32 = iterable.next().unwrap().parse().unwrap();
 
 			// we need to return the smaller number between a and b
-			println!("{}", if a < b {a} else {b})
+			println!("{}", if a <= b {a} else {b})
 
 
 
