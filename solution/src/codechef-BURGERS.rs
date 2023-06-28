@@ -26,19 +26,19 @@ fn main() {
 	let number_of_test_cases: i32 = number_of_test_cases.trim().parse().unwrap();
 
 	for _test_case in 1..=number_of_test_cases {
-			let mut problem = String::new();
-			
-			std::io::stdin()
-			.read_line(&mut problem)
-			.unwrap();
+		let mut problem = String::new();
+		
+		std::io::stdin()
+		.read_line(&mut problem)
+		.unwrap();
 
-			let mut iterable = problem.trim().split_whitespace();
+		let mut iterable = problem.trim().split_whitespace();
 
-			let a: i32 = iterable.next().unwrap().parse().unwrap();
-			let b: i32 = iterable.next().unwrap().parse().unwrap();
+		let a: i32 = iterable.next().unwrap().parse().unwrap();
+		let b: i32 = iterable.next().unwrap().parse().unwrap();
 
-			// we need to return the smaller number between a and b
-			println!("{}", if a <= b {a} else {b})
+		// we need to return the smaller number between a and b
+		println!("{}", if a <= b {a} else {b})
 
 
 
